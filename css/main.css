@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar .navbar-collapse {
+  text-align: center !important;
+}
+
+.navbar-toggle {
+    float: none !important;
+    width: 60%;
+    text-align: center !important;
+}
+
+.navbar-brand {
+    float: none;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center !important;
+}
+
+.navbar-header {
+    text-align: center;
+}
+
+.logo .img-responsive {
+    display: inline !important;
+}
+
+
+
+.menuM {
+  float: right;
+  padding-top: 15px;
+
+}
+
+.row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.navbar-inverse{
+  background: none !important; 
+  border: 0 !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+
+
+.indexBG {
+background: transparent url("../images/indexBG.jpeg") no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 995px;
+    width: 100%
+
+}
+.indexBG2 {
+ height: 1080px;
+    background-image:url("../images/indexBG2.jpeg");
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   
+
+}
+
+.navbar-brand img {
+    width: 220px;
+}
+
+.index {
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+}
+
+ h1,h3 {
+    color: white !important;
+}
+
+
+
