@@ -3,14 +3,28 @@
     margin: 0px;
 }
 
+.glyphicon span {
+    color: #fff !important;
+    font-family: 'Montserrat', sans-serif !important;
+    margin-right: 100px;
+}
+
+.glyphicon span:nth-last-child(2) {
+    margin-right: 0px ;
+}
+
+
 .navbar .navbar-collapse {
   text-align: center !important;
+  border-color: transparent !important;
 }
 
 .navbar-toggle {
     float: none !important;
-    width: 60%;
+    width: 65%;
     text-align: center !important;
+    background-color: #444 !important;
+    opacity: 0.7;
 }
 
 .navbar-brand {
@@ -22,21 +36,43 @@
     text-align: center !important;
 }
 
+.marginBottom {
+    margin-bottom: 100px;
+}
+
 .navbar-header {
     text-align: center;
 }
 
+ul li a {
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    color: #fff !important;
+    text-align: left;
+    opacity: .7;
+   
+}
+
+.navbar-nav ul {
+    
+}
+
+ul li a:hover {
+    color: #999  !important;
+}   
 .logo .img-responsive {
     display: inline !important;
 }
 
-
-
-.menuM {
-  float: right;
-  padding-top: 15px;
-
+.logo {
+    width: 200px;
 }
+
+.glyphicon {
+    color: #c3917d !important;
+}
+
+
 
 .row {
     margin-left: 0px !important;
@@ -58,7 +94,8 @@ background: transparent url("../images/indexBG.jpeg") no-repeat top center fixed
     -o-background-size: cover;
     background-size: cover;
     height: 995px;
-    width: 100%
+    width: 100%;
+       
 
 }
 .indexBG2 {
@@ -82,8 +119,35 @@ background: transparent url("../images/indexBG.jpeg") no-repeat top center fixed
 }
 
  h1,h3 {
-    color: white !important;
+    color: blue !important;
+}
+
+.slogan {
+    font-family: 'Frijole', cursive;
+    font-size: 75px;
+    color: #fff;
 }
 
 
+
+@media screen and (max-width: 765px){
+    .navbar-toggle {
+    display: inline !important;
+        }
+        
+        .navbar-brand {
+            padding-right: 30px;
+        }
+        
+        ul{
+           padding-left: 56px !important;
+        }
+}
+
+@media screen and (max-width: 365px){
+    
+    .slogan {
+        font-size: 55px;
+    }
+}
 
