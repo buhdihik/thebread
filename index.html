@@ -38,6 +38,17 @@
 		});
        </script>
        
+       <script>
+           $(document).scroll(function() {
+            var y = $(this).scrollTop();
+            if (y > 500) {
+            $('.arrow').fadeIn();
+            } else {
+            $('.arrow').fadeOut();
+             }
+            });
+       </script>
+       
        
     </head>
      <body>
@@ -73,7 +84,7 @@
                     </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#first">HOME</a></li>
+              <li><a href="#first/">HOME</a></li>
               <li><a href="#second">ABOUT</a></li>
               <li><a href="#third">PRODUCTS</a></li>
                <li><a href="#third">NEWS</a></li>
@@ -89,7 +100,7 @@
             <div class="slogan center-block">
                 Hungry tummy<br/> asking <br/>for daily bread...
             </div>
-           
+           <div class="arrow"><a href="#first">UP</a></div> 
         </div><!--the first-->
         <div class="row " id="second">
             <div class="indexBG2">
@@ -115,7 +126,7 @@
                          <button class="btn btn-warning pull-right">read more</button>  
                      </div>
             </div>
-                <div class="arrow"><a href="#first">UP</a></div> 
+                
             </div><!--indexBG2-->
            
         </div>
