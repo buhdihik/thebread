@@ -126,7 +126,60 @@ background: transparent url("../images/indexBG.jpeg") no-repeat top center fixed
     font-family: 'Frijole', cursive;
     font-size: 75px;
     color: #fff;
+    padding-top: 7%;
 }
+
+.breadishe {
+    font-family: 'Kaushan Script', cursive;
+    color: orange;
+    font-size: 85px;
+}
+
+.the {
+    line-height: 22px;
+    text-align: justify;
+    margin-top: 10%;
+}
+
+.the p {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 22px;
+    color: #fff;
+}
+
+.the h4 {
+    color: #fff;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 34px;
+}
+
+.about {
+    width: 60%;
+    font-family: 'Kaushan Script', cursive;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 7%;
+    font-size: 22px;
+    line-height: 50px;
+}
+
+.about .btn-warning{
+    height: 87px;
+    width: 210px;
+    font-size: 25px;
+    font-family: 'Frijole', cursive;
+}
+
+.arrow a {
+    position: fixed;
+    color: red;
+    font-size: 55px;
+    top: 507px;
+    right: 100px;
+}
+
 
 
 
@@ -140,14 +193,16 @@ background: transparent url("../images/indexBG.jpeg") no-repeat top center fixed
         }
         
         ul{
-           padding-left: 56px !important;
+           padding-left: 15% !important;
+        }
+        
+        .slogan {
+             font-size: 55px;
         }
 }
 
 @media screen and (max-width: 365px){
-    
     .slogan {
-        font-size: 55px;
+        font-size: 50px;
     }
 }
-
