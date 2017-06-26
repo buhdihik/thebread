@@ -14,6 +14,7 @@
 }
 
 
+
 .navbar .navbar-collapse {
   text-align: center !important;
   border-color: transparent !important;
@@ -88,7 +89,7 @@ ul li a:hover {
 
 
 .indexBG {
-background: transparent url("../images/indexBG.jpeg") no-repeat top center fixed;
+background: transparent url("../images/indexBGn.jpg") no-repeat top center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -109,6 +110,43 @@ background: transparent url("../images/indexBG.jpeg") no-repeat top center fixed
 
 }
 
+.indexBG3 {
+ height: 1080px;
+    background-image:url("../images/indexBG3.jpg");
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.indexBG4 {
+ height: 1080px;
+    background-image:url("../images/image2.jpeg");
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+.images {
+    float: left;
+    width: 30%;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+.images img {
+    padding-bottom: 10%;
+    padding-right: 4%;
+   
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+
 .navbar-brand img {
     width: 220px;
 }
@@ -124,15 +162,15 @@ background: transparent url("../images/indexBG.jpeg") no-repeat top center fixed
 
 .slogan {
     font-family: 'Frijole', cursive;
-    font-size: 75px;
+    font-size: 100px;
     color: #fff;
-    padding-top: 7%;
+    padding-top: 5%;
 }
 
 .breadishe {
     font-family: 'Kaushan Script', cursive;
     color: orange;
-    font-size: 85px;
+    font-size: 67px;
 }
 
 .the {
@@ -172,12 +210,28 @@ background: transparent url("../images/indexBG.jpeg") no-repeat top center fixed
     font-family: 'Frijole', cursive;
 }
 
-.arrow a {
+.arrow img {
+   
     position: fixed;
-    color: red;
-    font-size: 55px;
-    top: 507px;
-    right: 100px;
+    bottom: 0;
+    right: 0;
+    
+}
+
+.menu {
+    margin-top: 4%;
+    border-bottom: 1px dotted gray;
+    
+}
+
+.btn {
+    margin-bottom: 3%;
+}
+
+.finest {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 22px;
+    color: #000;
 }
 
 
@@ -199,6 +253,8 @@ background: transparent url("../images/indexBG.jpeg") no-repeat top center fixed
         .slogan {
              font-size: 55px;
         }
+        
+       
 }
 
 @media screen and (max-width: 365px){
@@ -206,3 +262,4 @@ background: transparent url("../images/indexBG.jpeg") no-repeat top center fixed
         font-size: 50px;
     }
 }
+
