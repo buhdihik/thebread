@@ -12,6 +12,6 @@
         $('.navbar-collapse').collapse('hide');
             });
         </script>
-<?php wp_footer();?>
+
 </body>
 </html>
